@@ -1,0 +1,47 @@
+import React from "react";
+import { FaGraduationCap, FaBookOpen } from "react-icons/fa"
+import textbookSneaker from ".././../assets/imgs/textbookSneaker.png"
+const TextBook = () => {
+  return (
+    <div className="pt-10 textbook bg-greyligt">
+      <div className="flex flex-col items-center justify-center">
+        <div className="max-w-[1180px] w-full p-5 bg-white rounded-lg">
+          <div className="grid">
+            <div className="row">
+              <div className="col l-6">
+                <div className="flex items-center">
+                    <div className="flex items-center justify-center h-8 mr-5 gap-x-2 line-long before:-right-5">
+                        <FaGraduationCap className="w-8 h-full text-greyicon"></FaGraduationCap>
+                        <span className="text-xl font-bold leading-8 text-greydark">Textbook</span>
+                    </div>
+                    <div className="flex items-center justify-center h-8 ml-5 text-black gap-x-2">
+                        <FaBookOpen className="w-8 h-full"></FaBookOpen>
+                        <span className="text-xl font-bold leading-8">Dictionary</span>
+                    </div>
+                </div>
+              </div>
+              <div className="col l-6">
+                <div className="flex items-center justify-end w-full h-full gap-x-[10px]">
+                    <div className="flex items-center justify-start pr-10 rounded-xl gap-x-1 bg-pinklight">
+                        <img src={textbookSneaker} alt="" className="object-cover" />
+                        <span className="text-base font-bold text-pinkdark">Sprint</span>
+                    </div>
+                    <div className="flex items-center justify-start pr-10 rounded-xl gap-x-1 bg-pinklight">
+                        <img src={textbookSneaker} alt="" className="object-cover" />
+                        <span className="text-base font-bold text-pinkdark">Sprint</span>
+                    </div>
+                    <div>
+                        
+                    </div>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default TextBook;
