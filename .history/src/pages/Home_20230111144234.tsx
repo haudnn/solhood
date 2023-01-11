@@ -32,7 +32,7 @@ const Home = () => {
                     <a href="/">About platform →</a>
                   </button>
                   <div className="flex items-center w-full mt-6 md:justify-start">
-                    <div className="flex-1 line-long md:flex-none md:pr-[60px]">
+                    <div className="flex-1 line-long">
                       <div className="flex items-center justify-center md:justify-start">
                         <div>
                           <img
@@ -41,7 +41,7 @@ const Home = () => {
                             className="object-cover w-full h-full"
                           />
                         </div>
-                        <div className="ml-1 text-2xl md:ml-3 md:text-4xl font-dela">
+                        <div className="md:ml-3 md:text-4xl font-dela">
                           600
                           <span className="text-cyandark">+</span>
                         </div>
@@ -50,7 +50,7 @@ const Home = () => {
                         Popular words
                       </p>
                     </div>
-                    <div className="flex-1 md:flex-none md:pl-[60px]">
+                    <div className="flex-1 md:flex-auto">
                       <div className="flex items-center justify-center md:justify-start">
                         <div>
                           <img
@@ -59,7 +59,7 @@ const Home = () => {
                             className="object-cover w-full h-full"
                           />
                         </div>
-                        <div className="ml-1 text-2xl md:ml-3 md:text-4xl font-dela">
+                        <div className="md:ml-3 md:text-4xl font-dela">
                           2<span className="text-cyandark">+</span>
                         </div>
                       </div>

@@ -31,9 +31,9 @@ const Home = () => {
                   <button className="flex items-center justify-center p-3 mt-6 text-base font-semibold rounded-full bg-cyanlight text-cyandark">
                     <a href="/">About platform →</a>
                   </button>
-                  <div className="flex items-center w-full mt-6 md:justify-start">
-                    <div className="flex-1 line-long md:flex-none md:pr-[60px]">
-                      <div className="flex items-center justify-center md:justify-start">
+                  <div className="flex items-center mt-6">
+                    <div className="line-long md:pr-[60px]">
+                      <div className="flex items-center">
                         <div>
                           <img
                             src={flash}
@@ -41,17 +41,17 @@ const Home = () => {
                             className="object-cover w-full h-full"
                           />
                         </div>
-                        <div className="ml-1 text-2xl md:ml-3 md:text-4xl font-dela">
+                        <div className="md:ml-3 md:text-4xl font-dela">
                           600
                           <span className="text-cyandark">+</span>
                         </div>
                       </div>
-                      <p className="font-semibold text-center text-greydark md:text-start">
+                      <p className="font-semibold text-center text-greydark">
                         Popular words
                       </p>
                     </div>
-                    <div className="flex-1 md:flex-none md:pl-[60px]">
-                      <div className="flex items-center justify-center md:justify-start">
+                    <div className="md:pl-[60px]">
+                      <div className="flex items-center">
                         <div>
                           <img
                             src={game}
@@ -59,11 +59,11 @@ const Home = () => {
                             className="object-cover w-full h-full"
                           />
                         </div>
-                        <div className="ml-1 text-2xl md:ml-3 md:text-4xl font-dela">
+                        <div className="md:ml-3 md:text-4xl font-dela">
                           2<span className="text-cyandark">+</span>
                         </div>
                       </div>
-                      <p className="font-semibold text-center md:text-start text-greydark">
+                      <p className="font-semibold text-center text-greydark">
                         Mini-games
                       </p>
                     </div>

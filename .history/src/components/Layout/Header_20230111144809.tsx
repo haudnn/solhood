@@ -38,7 +38,7 @@ const Header = () => {
                           className="text-base font-semibold text-cyandark"
                           href="/"
                         >
-                          Home
+                          Main
                         </a>
                       </li>
                       <li>

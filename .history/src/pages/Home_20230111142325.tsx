@@ -21,49 +21,49 @@ const Home = () => {
                   <p className="text-lg font-bold text-cyandark ">
                     E-COURSE PLATFORM
                   </p>
-                  <h1 className="md:mt-6 mt-2 font-dela md:text-5xl md:leading-[60px] text-center md:text-start text-3xl">
+                  <h1 className="md:mt-6 font-dela md:text-5xl md:leading-[60px] text-center md:text-start text-3xl">
                     Learning and teaching online, made easy.
                   </h1>
-                  <p className="mt-3 text-lg font-semibold text-center md:mt-6 text-greydark md:text-start">
+                  <p className=",dmt-6 text-lg font-semibold text-center text-greydark md:text-start">
                     Practice your English and learn new things with the
                     platform.
                   </p>
                   <button className="flex items-center justify-center p-3 mt-6 text-base font-semibold rounded-full bg-cyanlight text-cyandark">
                     <a href="/">About platform →</a>
                   </button>
-                  <div className="flex items-center w-full mt-6 md:justify-start">
-                    <div className="flex-1 line-long md:flex-none md:pr-[60px]">
-                      <div className="flex items-center justify-center md:justify-start">
-                        <div>
+                  <div className="flex items-center mt-6">
+                    <div className="line-long pr-[60px]">
+                      <div className="flex items-center">
+                        <div className="w-[24px] h-[30px]">
                           <img
                             src={flash}
                             alt=""
                             className="object-cover w-full h-full"
                           />
                         </div>
-                        <div className="ml-1 text-2xl md:ml-3 md:text-4xl font-dela">
+                        <div className="ml-3 text-4xl font-dela">
                           600
                           <span className="text-cyandark">+</span>
                         </div>
                       </div>
-                      <p className="font-semibold text-center text-greydark md:text-start">
+                      <p className="font-semibold text-center text-greydark">
                         Popular words
                       </p>
                     </div>
-                    <div className="flex-1 md:flex-none md:pl-[60px]">
-                      <div className="flex items-center justify-center md:justify-start">
-                        <div>
+                    <div className="pl-[60px]">
+                      <div className="flex items-center">
+                        <div className="w-[24px] h-[30px]">
                           <img
                             src={game}
                             alt=""
                             className="object-cover w-full h-full"
                           />
                         </div>
-                        <div className="ml-1 text-2xl md:ml-3 md:text-4xl font-dela">
+                        <div className="ml-3 text-4xl font-dela">
                           2<span className="text-cyandark">+</span>
                         </div>
                       </div>
-                      <p className="font-semibold text-center md:text-start text-greydark">
+                      <p className="font-semibold text-center text-greydark">
                         Mini-games
                       </p>
                     </div>

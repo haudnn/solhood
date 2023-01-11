@@ -41,7 +41,7 @@ const Home = () => {
                             className="object-cover w-full h-full"
                           />
                         </div>
-                        <div className="ml-1 text-2xl md:ml-3 md:text-4xl font-dela">
+                        <div className="md:ml-3 md:text-4xl font-dela">
                           600
                           <span className="text-cyandark">+</span>
                         </div>
@@ -59,7 +59,7 @@ const Home = () => {
                             className="object-cover w-full h-full"
                           />
                         </div>
-                        <div className="ml-1 text-2xl md:ml-3 md:text-4xl font-dela">
+                        <div className="text-2xl md:ml-3 md:text-4xl font-dela">
                           2<span className="text-cyandark">+</span>
                         </div>
                       </div>
